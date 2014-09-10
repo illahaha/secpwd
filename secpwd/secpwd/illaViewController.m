@@ -8,23 +8,8 @@
 
 #import "illaViewController.h"
 
-static CGFloat const consoleDefaultFontSize = 17;
-static CGFloat const consoleMinFontSize = 10;
-static CGFloat const consoleMaxFontSize = 25;
-
-static NSString * const consoleDefaultFont = @"Courier-Bold";
-
-@interface illaViewController ()
-
-@end
-
 @implementation illaViewController
 
--(instancetype)init {
-    self = [super init];
-    [self generateTextView];
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -36,10 +21,6 @@ static NSString * const consoleDefaultFont = @"Courier-Bold";
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(void)generateTextView {
-    
 }
 
 @end

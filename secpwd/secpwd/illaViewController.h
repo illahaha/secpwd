@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface illaViewController : UIViewController{
-    UITextView *_textView;
-    CGFloat _currentFontSize;
-}
+@interface illaViewController : UIViewController
 
 @end

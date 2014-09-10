@@ -22,6 +22,7 @@
 		4BBCD21919C0524C0032ACD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBCD1F819C0524C0032ACD2 /* UIKit.framework */; };
 		4BBCD22119C0524C0032ACD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BBCD21F19C0524C0032ACD2 /* InfoPlist.strings */; };
 		4BBCD22319C0524C0032ACD2 /* secpwdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCD22219C0524C0032ACD2 /* secpwdTests.m */; };
+		4BBCD22E19C056510032ACD2 /* illaConsoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCD22D19C056510032ACD2 /* illaConsoleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		4BBCD21E19C0524C0032ACD2 /* secpwdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "secpwdTests-Info.plist"; sourceTree = "<group>"; };
 		4BBCD22019C0524C0032ACD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4BBCD22219C0524C0032ACD2 /* secpwdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secpwdTests.m; sourceTree = "<group>"; };
+		4BBCD22C19C056510032ACD2 /* illaConsoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = illaConsoleView.h; sourceTree = "<group>"; };
+		4BBCD22D19C056510032ACD2 /* illaConsoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = illaConsoleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				4BBCD20D19C0524C0032ACD2 /* illaViewController.m */,
 				4BBCD20F19C0524C0032ACD2 /* Images.xcassets */,
 				4BBCD1FB19C0524C0032ACD2 /* Supporting Files */,
+				4BBCD22C19C056510032ACD2 /* illaConsoleView.h */,
+				4BBCD22D19C056510032ACD2 /* illaConsoleView.m */,
 			);
 			path = secpwd;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BBCD22E19C056510032ACD2 /* illaConsoleView.m in Sources */,
 				4BBCD20519C0524C0032ACD2 /* illaAppDelegate.m in Sources */,
 				4BBCD20E19C0524C0032ACD2 /* illaViewController.m in Sources */,
 				4BBCD20119C0524C0032ACD2 /* main.m in Sources */,
