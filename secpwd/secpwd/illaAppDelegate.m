@@ -10,9 +10,20 @@
 
 @implementation illaAppDelegate
 
++ (illaAppDelegate *)sharedAppDelegate {
+    return (illaAppDelegate *)[UIApplication sharedApplication].delegate;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    illaConsoleView *consoleViewVC = [illaConsoleView new];
+    UINavigationController *consoleViewNC = [[UINavigationController alloc] initWithRootViewController:consoleViewVC];
+    
+    self.console = consoleViewVC;
+    self.window.rootViewController = consoleViewNC;
+    
     return YES;
 }
 							

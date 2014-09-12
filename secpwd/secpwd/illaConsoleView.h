@@ -8,9 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface illaConsoleView : UIViewController {
+@interface illaConsoleView : UIViewController <UITextViewDelegate>{
     UITextView *_textView;
+    UITextView *_commondView;
     CGFloat _currentFontSize;
 }
+
+-(void)writeConsole:(NSString *)text;
 
 @end

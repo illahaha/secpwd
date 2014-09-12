@@ -10,11 +10,18 @@
 
 @implementation illaViewController
 
+- (id)init {
+    self = [super init];
+    _appDelegate = [illaAppDelegate sharedAppDelegate];
+    [_appDelegate.console writeConsole:@"this is a test"];
+    return false;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

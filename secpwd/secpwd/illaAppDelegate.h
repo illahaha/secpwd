@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "illaConsoleView.h"
 
 @interface illaAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) illaConsoleView * console;
+
++ (illaAppDelegate *)sharedAppDelegate;
 
 @end
